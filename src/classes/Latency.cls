@@ -18,9 +18,7 @@ public class Latency {
 		// Send the request, and return a response
 		HttpResponse res = h.send(req);
 
-		system.debug(res);
-
-			//Log time after http get is complete
+		//Log time after http get is complete
 		Decimal stopTime = system.now().getTime();
 
 		//Return the duration of the Http request
