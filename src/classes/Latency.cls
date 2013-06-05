@@ -2,7 +2,6 @@ public class Latency {
 
 	@RemoteAction
 	public static Decimal pingRemoteURL(String url){
-		Integer latency;
 
 		//Instantiate http object
 		Http h = new Http();
